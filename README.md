@@ -16,32 +16,20 @@ API Key Setup
 Example
 Contributing
 License
-Installation
-Clone the repository:
-bash
-Copy code
+> Installation
+> Clone the repository:
 git clone https://github.com/yourusername/web-scraping-project.git
 cd web-scraping-project
-Create a virtual environment:
-bash
-Copy code
+> Create a virtual environment:
 python -m venv venv
-source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-Install the required dependencies:
-bash
-Copy code
+source venv/bin/activate 
+> Install the required dependencies:
 pip install -r requirements.txt
 Usage
-Set up your YouTube API key:
-Follow the instructions in the API Key Setup section.
-
-Run the main script:
-
-bash
-Copy code
+> Setting up  YouTube API key:
 python main.py
-View the output:
-The results will be displayed in the console and visualized using Matplotlib.
+AIzaSyDH9YEC3N7COcim1arbbSRBrLP01nXsI44
+The results will be displayed in the console and visualized using Seaborn .
 # Project Structure
 css
 Copy code
@@ -59,12 +47,12 @@ web-scraping-project/
 ├── README.md
 ├── .gitignore
 # API Key Setup
-Go to the Google Cloud Console.
-Create a new project or select an existing one.
-Navigate to the API & Services section.
-Enable the YouTube Data API v3.
-Create an API key and add it to your environment variables:
-export YOUTUBE_API_KEY='AIzaSyDH9YEC3N7COcim1arbbSRBrLP01nXsI44' 
+> Go to the Google Cloud Console.
+> Create a new project 
+> Navigate to the API & Services section.
+> Enable the YouTube Data API v3.
+> Create an API key and add it to your environment variables:
+> export YOUTUBE_API_KEY='AIzaSyDH9YEC3N7COcim1arbbSRBrLP01nXsI44' 
 > Example
 Here's a brief example of how the script works:
 

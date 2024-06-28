@@ -31,8 +31,6 @@ python main.py
 AIzaSyDH9YEC3N7COcim1arbbSRBrLP01nXsI44
 The results will be displayed in the console and visualized using Seaborn .
 # Project Structure
-css
-Copy code
 web-scraping-project/
 │
 ├── data/
@@ -154,4 +152,5 @@ def get_video_details(youtube, video_ids):
 
     return  all_video_stats
 This wa later visualised according to the requirements of getting to know the Top 10 videos of PEWDIEPIE channel using Seaborn 
- After this it was visualised again and sorted according to videos per month of PEWDIEPIE channel alone using Seaborn   
+After this it was visualised again and sorted according to videos per month of PEWDIEPIE channel alone using Seaborn   
+# OUTPUTS HAVE BEEN DISPLAYED WITHIN THE PYTGON FILE ITSELF
